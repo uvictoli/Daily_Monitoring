@@ -23,5 +23,7 @@
 
 - PC 보완 2차 (2023.01.16)  
 multiprocessing 모듈 사용  
-➔ 각 프로세스마다 메인 URL 1개, 링크 체크용 URL 1개 동작하도록 설정
+➔ 각 프로세스마다 메인 URL 1개, 링크 체크용 URL 1개 동작하도록 설정 <br>
+
+  - webdriver 버전 오류 해결하기 위해 ChromeDriverManager 사용한 set_chrome_driver 함수 추가
   - 이전보다 1분 가량 더 느려짐 이유가 뭘까...😵
