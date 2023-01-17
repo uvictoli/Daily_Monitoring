@@ -28,3 +28,8 @@ multiprocessing 모듈 사용
   - webdriver 버전 오류 해결하기 위해 ChromeDriverManager 사용한 set_chrome_driver 함수 추가
   - 이전보다 1분 가량 더 느려짐 이유가 뭘까...😵
   - 같은 키워드에 노출 소재가 여러 개인 경우 썸네일과 링크 내용이 일치하지 않는 문제 발생
+ <br>
+ 
+ - Mobile 보완 1차 (2023.01.17)  
+   - PC와 마찬가지로 multiprocessing module 사용하였으나 기존보다 오히려 속도가 느려짐  
+   - 멀티프로세싱을 페이지를 열 때 사용하는 것이 아니라 링크 긁어올 때 사용하는 방향으로 수정해볼 계획
